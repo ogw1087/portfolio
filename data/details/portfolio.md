@@ -25,6 +25,14 @@ node ./assets/js/generate-pages.js
 
 ---
 
+## イメージ
+
+HTMLの生成
+
+![スクリーンショット1](../assets/img/portfolio/gene_html.png)
+
+---
+
 ## 今後の予定
 
 - 🚀 デザイン強化
