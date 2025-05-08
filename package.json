@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "このドキュメントは、`/tools/[tool-id].md` に記述するMarkdownファイルの書き方をまとめたものです。  \r `generate-pages.js` スクリプトによって HTML に変換され、ポートフォリオの各ツール詳細ページとして公開されます。",
+  "main": "_tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.0",
+    "marked": "^15.0.11"
+  }
+}

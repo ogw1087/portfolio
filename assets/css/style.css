@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Mamelon";
+    src: url("../../fonts/Mamelon-4HiRegular.woff2") format("woff2");
+    font-display: swap;
+}
+  
+body {
+    font-family: "Mamelon", "Rounded M+ 1c", "Noto Sans JP", sans-serif;
+}

@@ -1,0 +1,36 @@
+[
+    {
+        "id": "game_tool_aimbooster",
+        "title": "AIMブースターLite",
+        "description": "FPS向けのエイム練習補助ツール。オーバーレイで可視化＆ログ保存に対応。",
+        "category": "ゲームサポート",
+        "tags": ["ゲーム", "FPS", "Python", "WinAPI"],
+        "tech": "Python, Tkinter, OpenCV",
+        "github": "https://github.com/yourname/aimbooster-lite",
+        "demo": null,
+        "image": ""
+    },
+    {
+        "id": "discord_bot_stats",
+        "title": "戦績通知BOT for Discord",
+        "description": "APEXの戦績をTracker.ggから取得して自動通知するBOT。",
+        "category": "Discord Bot",
+        "tags": ["Bot", "Discord", "APEX", "Node.js"],
+        "tech": "Node.js, Discord.js, Tracker.gg API",
+        "github": "https://github.com/yourname/apex-discord-bot",
+        "demo": null,
+        "image": ""
+    },
+    {
+        "id": "chrome_clip_saver",
+        "title": "Clip Saver拡張",
+        "description": "ブラウザ上で表示された動画を即座に保存・管理できるChrome拡張。",
+        "category": "Chrome拡張",
+        "tags": ["Chrome", "拡張機能", "JavaScript"],
+        "tech": "JavaScript, Chrome API",
+        "github": "https://github.com/yourname/clip-saver",
+        "demo": "https://yourname.github.io/clip-saver-demo",
+        "image": ""
+    }
+]
+  

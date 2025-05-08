@@ -1,0 +1,34 @@
+[
+    {
+        "id": "webform",
+        "title": "アンケートフォーム(一時停止中)",
+        "icon": "📝",
+        "description": "研究室内での飲料アンケート",
+        "category": "日常",
+        "tags": ["日常", "Flask", "React", "Python", "SQLite", "WebAPP"],
+        "tech": "Python, Flask, React, SQLite",
+        "demo": "https://web-form-ivory.vercel.app/",
+        "image": "../../assets/img/form/1.png"
+    },
+    {
+        "id": "apex-stats-bot",
+        "title": "APEX戦績トラッキングbot",
+        "icon": "📈",
+        "description": "APEXの戦績をトラッキングするDiscord用のBOTです",
+        "category": "ゲーム支援",
+        "tech": ["Python", "Discord"],
+        "github": "https://github.com/ogw1087/APEX_stats_Bot",
+        "image": "../../assets/img/APEX_stats_Bot/response.png"
+    },
+    {
+        "id": "portfolio",
+        "title": "Portfolio(このサイト)",
+        "icon": "🖥️",
+        "description": "ツール一覧カード、詳細ページhtmlを自動生成しています。",
+        "category": "日常",
+        "tech": ["HTML", "JavaScript", "TailwindCSS"],
+        "github": "",
+        "image": "../../assets/img/portfolio/2.png"
+    }
+]
+  

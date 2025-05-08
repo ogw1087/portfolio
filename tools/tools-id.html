@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>ツール詳細</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body { font-family: 'M PLUS Rounded 1c', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <main class="max-w-3xl mx-auto p-6">
+        <a href="../index.html" class="text-blue-500 hover:underline text-sm">&larr; 戻る</a>
+        <div id="tool-detail" class="mt-6"></div>
+    </main>
+
+    <script>
+        // URLからIDを取得
+        const toolId = location.pathname.split('/').pop().replace('.html', '');
+
+        // データ読み込み
+        fetch('../data/tools.json')
+            .then(res => res.json())
+            .then(tools => {
+                const tool = tools.find(t => t.id === toolId);
+                const container = document.getElementById('tool-detail');
+
+                if (!tool) {
+                container.innerHTML = '<p class="text-red-500">ツールが見つかりません。</p>';
+                return;
+                }
+
+                container.innerHTML = `
+                    <h1 class="text-3xl font-bold mb-2">${tool.icon || ''} ${tool.title}</h1>
+                    <p class="text-gray-600 mb-4">${tool.description}</p>
+                    <p class="text-sm text-gray-500 mb-6">技術: ${tool.tech.join(', ')}</p>
+                    <div class="space-x-4">
+                        ${tool.github ? `<a href="${tool.github}" class="text-blue-500 hover:underline">GitHub</a>` : ''}
+                        ${tool.demo ? `<a href="${tool.demo}" class="text-blue-500 hover:underline">デモ</a>` : ''}
+                    </div>
+                `;
+            });
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Tool Details</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../assets/css/output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+                <main class="max-w-3xl mx-auto px-4 py-12">
+                    <h1 class="text-3xl font-rounded font-bold mb-4">🖥️ Portfolio(このサイト)</h1>
+                    <p class="text-sm font-sans text-gray-500 mb-6">ツール一覧カード、詳細ページhtmlを自動生成しています。</p>
+                    <article class="prose prose-slate md:prose-lg lg:prose-xl font-noto">
+                        <h2>概要</h2>
+<p>このポートフォリオサイトは、<strong>各ツールやコンテンツの情報からHTMLを自動生成する</strong>仕組みを持っています。</p>
+<hr>
+<h2>目的</h2>
+<ul>
+<li><p>ツールが増えた際に、HTMLを手動で書き足す必要がないようにする。</p>
+</li>
+<li><p>情報の管理をMarkdownやJSONなど別ファイルに分離し、記述のしやすさを担保する。</p>
+</li>
+<li><p>見た目の一貫性を保ちながら、新しいツール情報を簡単に追加可能にする。</p>
+</li>
+</ul>
+<hr>
+<h2>使用方法</h2>
+<ol>
+<li>portfolioのプロジェクトディレクトリ内で、以下のコマンドでgenerate-pages.jsを使用します。</li>
+</ol>
+<pre><code class="language-bash">node ./assets/js/generate-pages.js
+</code></pre>
+<ul>
+<li>index.html<code>/data/tools.json</code>をもとにカードが生成されます。</li>
+<li>また、<code>/data/tools.json</code>の情報を基にツール名称の一致する<code>\data\details\</code>内のMarkdownファイルの内容をHTMLに置き換えます。</li>
+</ul>
+<hr>
+<h2>スクリーンショット</h2>
+<p><img src="../assets/images/tool-a-preview.png" alt="スクリーンショット"></p>
+<hr>
+<h2>今後の予定</h2>
+<ul>
+<li>🚀 デザイン強化</li>
+</ul>
+
+                    </article>
+                </main>
+            
+<footer class="text-center text-sm text-gray-400 mt-12 py-6">
+    <a href="../index.html" class="text-blue-500 hover:underline">← Back to Portfolio</a>
+</footer>
+</body>
+</html>

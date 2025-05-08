@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link href="/assets/css/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" rel="stylesheet">
+</head>
+<body class="font-rounded bg-bgMain text-textMain bg-gray-50 text-textMain">
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed top-0 w-full z-10">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <h1 class="text-xl font-bold">Portforio</h1>
+            <nav class="space-x-4">
+                <a href="#tools" class="hover:text-blue-500">Tools</a>
+                <a href="#about" class="hover:text-blue-500">About</a>
+                <a href="#contact" class="hover:text-blue-500">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="pt-24 pb-12 max-w-6xl mx-auto px-4">
+        <!-- Hero -->
+        <section class="mb-12 text-center">
+            <h2 class="text-3xl font-bold font-rounded mb-2">まごのて</h2>
+            <p class="text-textDesc font-sans">ゲームプレイや日常をちょっと快適に。自分が痒い所を掻くためのツールたちです。</p>
+        </section>
+
+        <!-- Tools Section -->
+        <section id="tools">
+            <h3 class="text-2xl font-semibold mb-6">🖥️ Works</h3>
+            <div id="tool-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="mt-16">
+            <h3 class="text-2xl font-semibold mb-6">👤 About</h3>
+            <p class="text-textDesc font-sans leading-relaxed mb-8">
+                趣味でツールを開発しています。主にゲームサポート系や日常で役立つアプリを中心に、思いついたものを形にするのが好きです。
+            </p>
+  
+        <!-- Skills -->
+        <div class="mb-12">
+            <h4 class="text-xl font-bold mb-4">🛠️ Skills</h4>
+            <p class="text-textDesc font-noto text-sm">
+                実務経験はないため習熟度はまだ浅いところではありますが、趣味程度でも触れたものを載せています。
+            </p>
+  
+            <div class="mb-6">
+                <h5 class="font-semibold text-lg mb-2">FrontEnd</h5>
+                <div class="flex flex-wrap items-center gap-4 mb-2">
+                    <img src="assets/img/logos/HTML5_Logo_512.png" class="w-10 h-10" alt="HTML" />
+                    <img src="assets/img/logos/css.png" class="w-10 h-10" alt="CSS" />
+                    <img src="assets/img/logos/js.png" class="w-10 h-10" alt="JavaScript" />
+                    <img src="assets/img/logos/tailwind.webp" class="w-10 h-10" alt="TailwindCSS" />
+                    <img src="assets/img/logos/react.svg" class="w-10 h-10" alt="React" />
+                </div>
+                <p class="text-textDesc font-noto text-sm">
+                    HTML, CSS, TailwindCSS : portfolioなどのコーディング
+                    JavaScript : Portforio
+                    React : アンケートフォームなど動的サイトのフロントエンド
+                </p>
+            </div>
+  
+            <div class="mb-6">
+                <h5 class="font-semibold text-lg mb-2">BackEnd</h5>
+                <div class="flex flex-wrap items-center gap-4 mb-2">
+                    <img src="assets/img/logos/nodejs.png" class="w-10 h-10" alt="Node.js" />
+                    <img src="assets/img/logos/flask.jpg" class="w-10 h-10" alt="Flask" />
+                    <img src="assets/img/logos/Python.png" class="w-10 h-10" alt="Python" />
+                    <img src="assets/img/logos/julia.svg" class="w-10 h-10" alt="Julia" />
+                </div>
+                <p class="text-textDesc font-noto text-sm">
+                    Node.js : portfolio
+                    Flask : アンケートフォームなど動的サイトのバックエンド
+                    Python : 動的サイトのバックエンド、bot, 画像認識等のコーディング
+                    Julia : 学士、修士での研究活動
+                </p>
+            </div>
+  
+            <div>
+                <h5 class="font-semibold text-lg mb-2">Tools</h5>
+                <div class="flex flex-wrap items-center gap-4 mb-2">
+                    <img src="assets/img/logos/vscode.png" class="w-10 h-10" alt="VSCode" />
+                    <img src="assets/img/logos/github.svg" class="w-10 h-10" alt="GitHub" />
+                    <img src="assets/img/logos/uv.svg" class="w-10 h-10" alt="uv" />
+                    <img src="assets/img/logos/render.jpg" class="w-10 h-10" alt="Render" />
+                    <img src="assets/img/logos/vercel.png" class="w-10 h-10" alt="Vercel" />
+                </div>
+            <p class="text-textDesc font-noto text-sm">
+                VSCode : コーディング
+                GitHub : バージョン管理, 静的サイトのホスティング
+                uv : pythonの仮想環境管理
+                render : 動的サイトのバックエンド
+                vercel : 動的サイトのフロントエンド
+            </p>
+            </div>
+        </div>
+  
+        <!-- Hobbies -->
+        <div>
+            <h4 class="text-xl font-bold mb-6">🎮 趣味</h4>
+  
+            <!-- ゲーム -->
+            <div class="mb-8">
+                <h5 class="font-semibold text-lg mb-2">🎮 ゲーム</h5>
+                <div class="swiper game-swiper w-full md:w-2/3 rounded-xl shadow-md mb-4">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="assets/img/game/1.jpg" class="w-full h-auto rounded-xl" alt="ゲーム1" /></div>
+                        <div class="swiper-slide"><img src="assets/img/game/2.jpg" class="w-full h-auto rounded-xl" alt="ゲーム2" /></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <p class="text-textDesc font-sans leading-relaxed">
+                    FPSなどの対人ゲームやアクションゲームなど友人と楽しめるものを中心に楽しんでいます。
+                    自分のスキルによって勝敗が付くゲームでも楽しむこと、その上でできるだけ勝ちに拘ること、どちらも重視しています。
+                    掃除の手間を減らすため、できるだけデスクはシンプルにしています。
+                </p>
+            </div>
+  
+            <!-- 旅行 -->
+            <div class="mb-8">
+                <h5 class="font-semibold text-lg mb-2">✈️ 旅行</h5>
+                <div class="swiper travel-swiper w-full md:w-2/3 rounded-xl shadow-md mb-4">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="assets/img/travel/1.jpg" class="w-full h-auto rounded-xl" alt="旅行1" /></div>
+                        <div class="swiper-slide"><img src="assets/img/travel/2.jpg" class="w-full h-auto rounded-xl" alt="旅行2" /></div>
+                        <div class="swiper-slide"><img src="assets/img/travel/3.jpg" class="w-full h-auto rounded-xl" alt="旅行3" /></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <p class="text-textDesc font-sans leading-relaxed">
+                    新鮮な土地、一度は見てみたいランドマークや自然の景色、ローカルな体験を求めて、年に数回は国内旅行を楽しんでいます。
+                    南は沖縄、北は北海道まで行きました。次は四万十川を見に行きたいです。
+                </p>
+            </div>
+              
+        </div>
+        </section>
+  
+
+        <!-- Contact Section -->
+        <section id="contact" class="mt-16">
+            <h3 class="text-2xl font-semibold mb-4">📬 Contact</h3>
+            <ul class="space-y-2">
+                <li><a href="https://github.com/yourname" class="text-blue-500 hover:underline">GitHub</a></li>
+                <li><a href="https://discord.com/users/yourid" class="text-blue-500 hover:underline">Discord</a></li>
+                <li><a href="https://x.com/yourid" class="text-blue-500 hover:underline">X (Twitter)</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center text-sm text-gray-400 mt-12 py-6">
+        2025 Ogawa Ryo
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/tools.js"></script>
+</body>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+    const gameSwiper = new Swiper('.game-swiper', {
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.game-swiper .swiper-pagination',
+            clickable: true,
+        },
+    });
+
+    const travelSwiper = new Swiper('.travel-swiper', {
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.travel-swiper .swiper-pagination',
+            clickable: true,
+        },
+    });
+</script>
+</html>
