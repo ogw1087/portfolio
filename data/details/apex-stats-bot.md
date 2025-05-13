@@ -33,6 +33,11 @@
 
 ---
 
+## リンク
+[GitHub](https://github.com/ogw1087/APEX_stats_Bot)
+
+---
+
 ## 今後の予定
 
 - 📅 日付を指定した差分比較コマンド
